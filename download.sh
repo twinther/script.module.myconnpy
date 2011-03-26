@@ -7,6 +7,7 @@ cp -r mysql-connector-python-*/* .
 rm -r mysql-connector-python-*
 
 # rename python2 folder
+rm -r lib
 mv python2 lib
 
 # delete stuff we don't need
