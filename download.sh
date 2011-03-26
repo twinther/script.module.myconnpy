@@ -5,3 +5,11 @@ wget $URL
 tar xf mysql-connector-python-*.tar.gz
 cp -r mysql-connector-python-*/* .
 rm -r mysql-connector-python-*
+
+# rename python2 folder
+mv python2 lib
+
+# delete stuff we don't need
+rm -r python3
+rm metasetupinfo.py PKG-INFO setup.cfg setup.py unittests.py
+
