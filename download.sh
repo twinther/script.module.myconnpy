@@ -9,6 +9,7 @@ rm -r mysql-connector-python-*
 # rename python2 folder
 rm -r lib
 mv python2 lib
+mv COPYING LICENSE.txt
 
 # delete stuff we don't need
 rm -r python3
